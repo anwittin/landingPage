@@ -26,7 +26,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '+9!j2(jk7v$7+0b1v(z9+3vnm(jb0u@&w68t#
 DEBUG = False
 
 your_website = os.environ.get('YOUR_WEBSITE', '.example.com')
-ALLOWED_HOSTS = ['immense-harbor-57757herokuapp.com', '.tonywittinger.com']
+ALLOWED_HOSTS = ['immense-harbor-57757.herokuapp.com', '.herokuapp.com',
+'.tonywittinger.com']
 PROJECT_NAME  = os.environ.get('PROJECT_NAME', 'HiitLanding')
 
 # EMAIL_HOST = 'smtp.gmail.com'
